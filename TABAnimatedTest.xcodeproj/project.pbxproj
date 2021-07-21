@@ -1,0 +1,1064 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34A4E30D26A515DB00386431 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E30C26A515DB00386431 /* AppDelegate.m */; };
+		34A4E31026A515DB00386431 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E30F26A515DB00386431 /* SceneDelegate.m */; };
+		34A4E31326A515DB00386431 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E31226A515DB00386431 /* ViewController.m */; };
+		34A4E31626A515DB00386431 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A4E31426A515DB00386431 /* Main.storyboard */; };
+		34A4E31826A515DE00386431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34A4E31726A515DE00386431 /* Assets.xcassets */; };
+		34A4E31B26A515DE00386431 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A4E31926A515DE00386431 /* LaunchScreen.storyboard */; };
+		34A4E31E26A515DE00386431 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E31D26A515DE00386431 /* main.m */; };
+		34A4E3AA26A51F6A00386431 /* TABAnimatedCacheModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E32726A51F6900386431 /* TABAnimatedCacheModel.m */; };
+		34A4E3AB26A51F6A00386431 /* TABAnimatedDocumentMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E32926A51F6900386431 /* TABAnimatedDocumentMethod.m */; };
+		34A4E3AC26A51F6A00386431 /* TABAnimatedCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E32B26A51F6900386431 /* TABAnimatedCacheManager.m */; };
+		34A4E3AD26A51F6A00386431 /* TABAnimationMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E32D26A51F6900386431 /* TABAnimationMethod.m */; };
+		34A4E3AE26A51F6A00386431 /* TABAnimatedInjectionIIIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E32E26A51F6900386431 /* TABAnimatedInjectionIIIHelper.m */; };
+		34A4E3AF26A51F6A00386431 /* NSArray+TABAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E32F26A51F6900386431 /* NSArray+TABAnimated.m */; };
+		34A4E3B026A51F6A00386431 /* UIScrollView+TABExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E33026A51F6900386431 /* UIScrollView+TABExtension.m */; };
+		34A4E3B126A51F6A00386431 /* TABWeakDelegateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E33526A51F6900386431 /* TABWeakDelegateManager.m */; };
+		34A4E3B226A51F6A00386431 /* TABAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E33926A51F6900386431 /* TABAnimated.m */; };
+		34A4E3B326A51F6A00386431 /* TABComponentLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E33D26A51F6900386431 /* TABComponentLayer.m */; };
+		34A4E3B426A51F6A00386431 /* TABAnimatedProductImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E33E26A51F6900386431 /* TABAnimatedProductImpl.m */; };
+		34A4E3B526A51F6A00386431 /* UIView+TABAnimatedProduction.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E34426A51F6900386431 /* UIView+TABAnimatedProduction.m */; };
+		34A4E3B626A51F6A00386431 /* TABAnimatedProduction.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E34526A51F6900386431 /* TABAnimatedProduction.m */; };
+		34A4E3B726A51F6A00386431 /* TABAnimatedProductHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E34826A51F6900386431 /* TABAnimatedProductHelper.m */; };
+		34A4E3B826A51F6A00386431 /* UIScrollView+TABAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E34A26A51F6900386431 /* UIScrollView+TABAnimated.m */; };
+		34A4E3B926A51F6A00386431 /* TABAnimatedPullLoadingComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E34D26A51F6900386431 /* TABAnimatedPullLoadingComponent.m */; };
+		34A4E3BA26A51F6A00386431 /* UIView+TABExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E34F26A51F6900386431 /* UIView+TABExtension.m */; };
+		34A4E3BB26A51F6A00386431 /* TABAnimatedDarkModeManagerImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E35526A51F6900386431 /* TABAnimatedDarkModeManagerImpl.m */; };
+		34A4E3BC26A51F6A00386431 /* TABSentryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E35A26A51F6900386431 /* TABSentryView.m */; };
+		34A4E3BD26A51F6A00386431 /* TABAnimatedDarkModeImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E35B26A51F6900386431 /* TABAnimatedDarkModeImpl.m */; };
+		34A4E3BE26A51F6A00386431 /* TABBinAnimationImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E35F26A51F6900386431 /* TABBinAnimationImpl.m */; };
+		34A4E3BF26A51F6A00386431 /* TABBinAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E36026A51F6900386431 /* TABBinAnimation.m */; };
+		34A4E3C026A51F6A00386431 /* TABComponentLayerClassicSerializationImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E36526A51F6900386431 /* TABComponentLayerClassicSerializationImpl.m */; };
+		34A4E3C126A51F6A00386431 /* TABClassicAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E36726A51F6900386431 /* TABClassicAnimation.m */; };
+		34A4E3C226A51F6A00386431 /* TABBaseComponent+TABClassicAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E36826A51F6900386431 /* TABBaseComponent+TABClassicAnimation.m */; };
+		34A4E3C326A51F6A00386431 /* TABClassicAnimationImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E36A26A51F6900386431 /* TABClassicAnimationImpl.m */; };
+		34A4E3C426A51F6A00386431 /* TABComponentLayer+TABClassicAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E36C26A51F6900386431 /* TABComponentLayer+TABClassicAnimation.m */; };
+		34A4E3C526A51F6A00386431 /* TABComponentLayer+TABDropAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E37326A51F6900386431 /* TABComponentLayer+TABDropAnimation.m */; };
+		34A4E3C626A51F6A00386431 /* NSArray+TABDropAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E37526A51F6900386431 /* NSArray+TABDropAnimation.m */; };
+		34A4E3C726A51F6A00386431 /* TABBaseComponent+TABDropAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E37726A51F6900386431 /* TABBaseComponent+TABDropAnimation.m */; };
+		34A4E3C826A51F6A00386431 /* TABComponentLayerDropSerializationImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E37926A51F6900386431 /* TABComponentLayerDropSerializationImpl.m */; };
+		34A4E3C926A51F6A00386431 /* TABDropAnimationImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E37D26A51F6900386431 /* TABDropAnimationImpl.m */; };
+		34A4E3CA26A51F6A00386431 /* TABDropAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E37E26A51F6900386431 /* TABDropAnimation.m */; };
+		34A4E3CB26A51F6A00386431 /* TABAnimationManagerImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E38026A51F6900386431 /* TABAnimationManagerImpl.m */; };
+		34A4E3CC26A51F6A00386431 /* TABShimmerAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E38226A51F6900386431 /* TABShimmerAnimation.m */; };
+		34A4E3CD26A51F6A00386431 /* TABShimmerAnimationImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E38626A51F6900386431 /* TABShimmerAnimationImpl.m */; };
+		34A4E3CE26A51F6A00386431 /* TABBaseComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E38A26A51F6900386431 /* TABBaseComponent.m */; };
+		34A4E3CF26A51F6A00386431 /* TABComponentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E39126A51F6A00386431 /* TABComponentManager.m */; };
+		34A4E3D026A51F6A00386431 /* TABComponentMutableKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E39226A51F6A00386431 /* TABComponentMutableKey.m */; };
+		34A4E3D126A51F6A00386431 /* TABAnimatedChainManagerImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E39326A51F6A00386431 /* TABAnimatedChainManagerImpl.m */; };
+		34A4E3D226A51F6A00386431 /* NSArray+TABAnimatedChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E39426A51F6A00386431 /* NSArray+TABAnimatedChain.m */; };
+		34A4E3D326A51F6A00386431 /* UIView+TABControlAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E39726A51F6A00386431 /* UIView+TABControlAnimation.m */; };
+		34A4E3D426A51F6A00386431 /* UICollectionView+TABControlAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E39826A51F6A00386431 /* UICollectionView+TABControlAnimation.m */; };
+		34A4E3D526A51F6A00386431 /* TABViewAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E39926A51F6A00386431 /* TABViewAnimated.m */; };
+		34A4E3D626A51F6A00386431 /* TABCollectionAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E39A26A51F6A00386431 /* TABCollectionAnimated.m */; };
+		34A4E3D726A51F6A00386431 /* UIView+TABAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E39E26A51F6A00386431 /* UIView+TABAnimated.m */; };
+		34A4E3D826A51F6A00386431 /* TABTableAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E3A026A51F6A00386431 /* TABTableAnimated.m */; };
+		34A4E3D926A51F6A00386431 /* TABFormAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E3A226A51F6A00386431 /* TABFormAnimated.m */; };
+		34A4E3DA26A51F6A00386431 /* UIView+TABControlModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E3A426A51F6A00386431 /* UIView+TABControlModel.m */; };
+		34A4E3DB26A51F6A00386431 /* UITableView+TABControlAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E3A826A51F6A00386431 /* UITableView+TABControlAnimation.m */; };
+		34A4E42026A5212600386431 /* LNAppListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E3E226A5212500386431 /* LNAppListViewController.m */; };
+		34A4E42126A5212600386431 /* LNAppModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E3E726A5212500386431 /* LNAppModel.m */; };
+		34A4E42226A5212600386431 /* YKAppMenuGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E3E826A5212500386431 /* YKAppMenuGroupModel.m */; };
+		34A4E42326A5212600386431 /* LNAppCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E3EA26A5212500386431 /* LNAppCollectionCell.m */; };
+		34A4E42526A5212600386431 /* YKCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E3F226A5212500386431 /* YKCollectionReusableView.m */; };
+		34A4E42626A5212600386431 /* LNAppListReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E3F326A5212500386431 /* LNAppListReusableView.m */; };
+		34A4E42726A5212600386431 /* LNAppListCollectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E3F426A5212500386431 /* LNAppListCollectView.m */; };
+		34A4E42826A5212600386431 /* YKCollectionViewLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E3F526A5212500386431 /* YKCollectionViewLayoutAttributes.m */; };
+		34A4E42926A5212600386431 /* YKCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E3F626A5212500386431 /* YKCollectionViewLayout.m */; };
+		34A4E43326A5212600386431 /* LNAppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A4E41126A5212600386431 /* LNAppManager.m */; };
+		34A4E43926A5269400386431 /* MiniAppData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 34A4E43826A5269400386431 /* MiniAppData.plist */; };
+		34A4E43B26A5534800386431 /* LNAppCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34A4E43A26A5534700386431 /* LNAppCollectionCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34A4E30826A515DB00386431 /* TABAnimatedTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TABAnimatedTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A4E30B26A515DB00386431 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34A4E30C26A515DB00386431 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34A4E30E26A515DB00386431 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		34A4E30F26A515DB00386431 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		34A4E31126A515DB00386431 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		34A4E31226A515DB00386431 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		34A4E31526A515DB00386431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34A4E31726A515DE00386431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34A4E31A26A515DE00386431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34A4E31C26A515DE00386431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34A4E31D26A515DE00386431 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34A4E32626A51F6900386431 /* TABAnimatedDocumentMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABAnimatedDocumentMethod.h; sourceTree = "<group>"; };
+		34A4E32726A51F6900386431 /* TABAnimatedCacheModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABAnimatedCacheModel.m; sourceTree = "<group>"; };
+		34A4E32826A51F6900386431 /* TABAnimatedCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABAnimatedCacheManager.h; sourceTree = "<group>"; };
+		34A4E32926A51F6900386431 /* TABAnimatedDocumentMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABAnimatedDocumentMethod.m; sourceTree = "<group>"; };
+		34A4E32A26A51F6900386431 /* TABAnimatedCacheModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABAnimatedCacheModel.h; sourceTree = "<group>"; };
+		34A4E32B26A51F6900386431 /* TABAnimatedCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABAnimatedCacheManager.m; sourceTree = "<group>"; };
+		34A4E32D26A51F6900386431 /* TABAnimationMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABAnimationMethod.m; sourceTree = "<group>"; };
+		34A4E32E26A51F6900386431 /* TABAnimatedInjectionIIIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABAnimatedInjectionIIIHelper.m; sourceTree = "<group>"; };
+		34A4E32F26A51F6900386431 /* NSArray+TABAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+TABAnimated.m"; sourceTree = "<group>"; };
+		34A4E33026A51F6900386431 /* UIScrollView+TABExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TABExtension.m"; sourceTree = "<group>"; };
+		34A4E33126A51F6900386431 /* TABWeakDelegateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABWeakDelegateManager.h; sourceTree = "<group>"; };
+		34A4E33226A51F6900386431 /* TABAnimationMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABAnimationMethod.h; sourceTree = "<group>"; };
+		34A4E33326A51F6900386431 /* NSArray+TABAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+TABAnimated.h"; sourceTree = "<group>"; };
+		34A4E33426A51F6900386431 /* TABAnimatedInjectionIIIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABAnimatedInjectionIIIHelper.h; sourceTree = "<group>"; };
+		34A4E33526A51F6900386431 /* TABWeakDelegateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABWeakDelegateManager.m; sourceTree = "<group>"; };
+		34A4E33626A51F6900386431 /* UIScrollView+TABExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TABExtension.h"; sourceTree = "<group>"; };
+		34A4E33826A51F6900386431 /* TABAnimatedConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABAnimatedConfig.h; sourceTree = "<group>"; };
+		34A4E33926A51F6900386431 /* TABAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABAnimated.m; sourceTree = "<group>"; };
+		34A4E33B26A51F6900386431 /* TABAnimatedProduction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABAnimatedProduction.h; sourceTree = "<group>"; };
+		34A4E33C26A51F6900386431 /* UIView+TABAnimatedProduction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TABAnimatedProduction.h"; sourceTree = "<group>"; };
+		34A4E33D26A51F6900386431 /* TABComponentLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABComponentLayer.m; sourceTree = "<group>"; };
+		34A4E33E26A51F6900386431 /* TABAnimatedProductImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABAnimatedProductImpl.m; sourceTree = "<group>"; };
+		34A4E34026A51F6900386431 /* TABAnimatedProductInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABAnimatedProductInterface.h; sourceTree = "<group>"; };
+		34A4E34126A51F6900386431 /* TABAnimatedProductDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABAnimatedProductDefines.h; sourceTree = "<group>"; };
+		34A4E34226A51F6900386431 /* TABComponentLayerSerializationInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABComponentLayerSerializationInterface.h; sourceTree = "<group>"; };
+		34A4E34326A51F6900386431 /* TABAnimatedProductHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABAnimatedProductHelper.h; sourceTree = "<group>"; };
+		34A4E34426A51F6900386431 /* UIView+TABAnimatedProduction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TABAnimatedProduction.m"; sourceTree = "<group>"; };
+		34A4E34526A51F6900386431 /* TABAnimatedProduction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABAnimatedProduction.m; sourceTree = "<group>"; };
+		34A4E34626A51F6900386431 /* TABComponentLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABComponentLayer.h; sourceTree = "<group>"; };
+		34A4E34726A51F6900386431 /* TABAnimatedProductImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABAnimatedProductImpl.h; sourceTree = "<group>"; };
+		34A4E34826A51F6900386431 /* TABAnimatedProductHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABAnimatedProductHelper.m; sourceTree = "<group>"; };
+		34A4E34A26A51F6900386431 /* UIScrollView+TABAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TABAnimated.m"; sourceTree = "<group>"; };
+		34A4E34B26A51F6900386431 /* TABAnimatedPullLoadingComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABAnimatedPullLoadingComponent.h; sourceTree = "<group>"; };
+		34A4E34C26A51F6900386431 /* UIView+TABExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TABExtension.h"; sourceTree = "<group>"; };
+		34A4E34D26A51F6900386431 /* TABAnimatedPullLoadingComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABAnimatedPullLoadingComponent.m; sourceTree = "<group>"; };
+		34A4E34E26A51F6900386431 /* UIScrollView+TABAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TABAnimated.h"; sourceTree = "<group>"; };
+		34A4E34F26A51F6900386431 /* UIView+TABExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TABExtension.m"; sourceTree = "<group>"; };
+		34A4E35026A51F6900386431 /* TABAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABAnimated.h; sourceTree = "<group>"; };
+		34A4E35326A51F6900386431 /* TABAnimatedDarkModeImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABAnimatedDarkModeImpl.h; sourceTree = "<group>"; };
+		34A4E35426A51F6900386431 /* TABSentryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABSentryView.h; sourceTree = "<group>"; };
+		34A4E35526A51F6900386431 /* TABAnimatedDarkModeManagerImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABAnimatedDarkModeManagerImpl.m; sourceTree = "<group>"; };
+		34A4E35726A51F6900386431 /* TABAnimatedDarkModeInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABAnimatedDarkModeInterface.h; sourceTree = "<group>"; };
+		34A4E35826A51F6900386431 /* TABAnimatedDarkModeDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABAnimatedDarkModeDefines.h; sourceTree = "<group>"; };
+		34A4E35926A51F6900386431 /* TABAnimatedDarkModeManagerInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABAnimatedDarkModeManagerInterface.h; sourceTree = "<group>"; };
+		34A4E35A26A51F6900386431 /* TABSentryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABSentryView.m; sourceTree = "<group>"; };
+		34A4E35B26A51F6900386431 /* TABAnimatedDarkModeImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABAnimatedDarkModeImpl.m; sourceTree = "<group>"; };
+		34A4E35C26A51F6900386431 /* TABAnimatedDarkModeManagerImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABAnimatedDarkModeManagerImpl.h; sourceTree = "<group>"; };
+		34A4E35F26A51F6900386431 /* TABBinAnimationImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABBinAnimationImpl.m; sourceTree = "<group>"; };
+		34A4E36026A51F6900386431 /* TABBinAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABBinAnimation.m; sourceTree = "<group>"; };
+		34A4E36126A51F6900386431 /* TABBinAnimationImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABBinAnimationImpl.h; sourceTree = "<group>"; };
+		34A4E36226A51F6900386431 /* TABBinAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABBinAnimation.h; sourceTree = "<group>"; };
+		34A4E36426A51F6900386431 /* TABClassicAnimationImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABClassicAnimationImpl.h; sourceTree = "<group>"; };
+		34A4E36526A51F6900386431 /* TABComponentLayerClassicSerializationImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABComponentLayerClassicSerializationImpl.m; sourceTree = "<group>"; };
+		34A4E36626A51F6900386431 /* TABComponentLayer+TABClassicAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TABComponentLayer+TABClassicAnimation.h"; sourceTree = "<group>"; };
+		34A4E36726A51F6900386431 /* TABClassicAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABClassicAnimation.m; sourceTree = "<group>"; };
+		34A4E36826A51F6900386431 /* TABBaseComponent+TABClassicAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TABBaseComponent+TABClassicAnimation.m"; sourceTree = "<group>"; };
+		34A4E36926A51F6900386431 /* TABComponentLayerClassicSerializationImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABComponentLayerClassicSerializationImpl.h; sourceTree = "<group>"; };
+		34A4E36A26A51F6900386431 /* TABClassicAnimationImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABClassicAnimationImpl.m; sourceTree = "<group>"; };
+		34A4E36B26A51F6900386431 /* TABClassicAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABClassicAnimation.h; sourceTree = "<group>"; };
+		34A4E36C26A51F6900386431 /* TABComponentLayer+TABClassicAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TABComponentLayer+TABClassicAnimation.m"; sourceTree = "<group>"; };
+		34A4E36D26A51F6900386431 /* TABBaseComponent+TABClassicAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TABBaseComponent+TABClassicAnimation.h"; sourceTree = "<group>"; };
+		34A4E36F26A51F6900386431 /* TABAnimatedDecorateInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABAnimatedDecorateInterface.h; sourceTree = "<group>"; };
+		34A4E37026A51F6900386431 /* TABAnimationManagerInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABAnimationManagerInterface.h; sourceTree = "<group>"; };
+		34A4E37126A51F6900386431 /* TABAnimationManagerImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABAnimationManagerImpl.h; sourceTree = "<group>"; };
+		34A4E37326A51F6900386431 /* TABComponentLayer+TABDropAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TABComponentLayer+TABDropAnimation.m"; sourceTree = "<group>"; };
+		34A4E37426A51F6900386431 /* TABComponentLayerDropSerializationImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABComponentLayerDropSerializationImpl.h; sourceTree = "<group>"; };
+		34A4E37526A51F6900386431 /* NSArray+TABDropAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+TABDropAnimation.m"; sourceTree = "<group>"; };
+		34A4E37626A51F6900386431 /* TABDropAnimationImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABDropAnimationImpl.h; sourceTree = "<group>"; };
+		34A4E37726A51F6900386431 /* TABBaseComponent+TABDropAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TABBaseComponent+TABDropAnimation.m"; sourceTree = "<group>"; };
+		34A4E37826A51F6900386431 /* TABDropAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABDropAnimation.h; sourceTree = "<group>"; };
+		34A4E37926A51F6900386431 /* TABComponentLayerDropSerializationImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABComponentLayerDropSerializationImpl.m; sourceTree = "<group>"; };
+		34A4E37A26A51F6900386431 /* TABComponentLayer+TABDropAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TABComponentLayer+TABDropAnimation.h"; sourceTree = "<group>"; };
+		34A4E37B26A51F6900386431 /* NSArray+TABDropAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+TABDropAnimation.h"; sourceTree = "<group>"; };
+		34A4E37C26A51F6900386431 /* TABDropAnimationDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABDropAnimationDefines.h; sourceTree = "<group>"; };
+		34A4E37D26A51F6900386431 /* TABDropAnimationImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABDropAnimationImpl.m; sourceTree = "<group>"; };
+		34A4E37E26A51F6900386431 /* TABDropAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABDropAnimation.m; sourceTree = "<group>"; };
+		34A4E37F26A51F6900386431 /* TABBaseComponent+TABDropAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TABBaseComponent+TABDropAnimation.h"; sourceTree = "<group>"; };
+		34A4E38026A51F6900386431 /* TABAnimationManagerImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABAnimationManagerImpl.m; sourceTree = "<group>"; };
+		34A4E38226A51F6900386431 /* TABShimmerAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABShimmerAnimation.m; sourceTree = "<group>"; };
+		34A4E38326A51F6900386431 /* TABShimmerAnimationImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABShimmerAnimationImpl.h; sourceTree = "<group>"; };
+		34A4E38426A51F6900386431 /* TABShimmerAnimationDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABShimmerAnimationDefines.h; sourceTree = "<group>"; };
+		34A4E38526A51F6900386431 /* TABShimmerAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABShimmerAnimation.h; sourceTree = "<group>"; };
+		34A4E38626A51F6900386431 /* TABShimmerAnimationImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABShimmerAnimationImpl.m; sourceTree = "<group>"; };
+		34A4E38826A51F6900386431 /* TABComponentMutableKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABComponentMutableKey.h; sourceTree = "<group>"; };
+		34A4E38926A51F6900386431 /* TABComponentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABComponentManager.h; sourceTree = "<group>"; };
+		34A4E38A26A51F6900386431 /* TABBaseComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABBaseComponent.m; sourceTree = "<group>"; };
+		34A4E38B26A51F6900386431 /* TABAnimatedChainManagerImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABAnimatedChainManagerImpl.h; sourceTree = "<group>"; };
+		34A4E38D26A51F6900386431 /* TABAnimatedChainDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABAnimatedChainDefines.h; sourceTree = "<group>"; };
+		34A4E38E26A51F6900386431 /* TABAnimatedChainManagerInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABAnimatedChainManagerInterface.h; sourceTree = "<group>"; };
+		34A4E38F26A51F6900386431 /* NSArray+TABAnimatedChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+TABAnimatedChain.h"; sourceTree = "<group>"; };
+		34A4E39026A51F6900386431 /* TABBaseComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABBaseComponent.h; sourceTree = "<group>"; };
+		34A4E39126A51F6A00386431 /* TABComponentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABComponentManager.m; sourceTree = "<group>"; };
+		34A4E39226A51F6A00386431 /* TABComponentMutableKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABComponentMutableKey.m; sourceTree = "<group>"; };
+		34A4E39326A51F6A00386431 /* TABAnimatedChainManagerImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABAnimatedChainManagerImpl.m; sourceTree = "<group>"; };
+		34A4E39426A51F6A00386431 /* NSArray+TABAnimatedChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+TABAnimatedChain.m"; sourceTree = "<group>"; };
+		34A4E39626A51F6A00386431 /* TABFormAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABFormAnimated.h; sourceTree = "<group>"; };
+		34A4E39726A51F6A00386431 /* UIView+TABControlAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TABControlAnimation.m"; sourceTree = "<group>"; };
+		34A4E39826A51F6A00386431 /* UICollectionView+TABControlAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+TABControlAnimation.m"; sourceTree = "<group>"; };
+		34A4E39926A51F6A00386431 /* TABViewAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABViewAnimated.m; sourceTree = "<group>"; };
+		34A4E39A26A51F6A00386431 /* TABCollectionAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABCollectionAnimated.m; sourceTree = "<group>"; };
+		34A4E39C26A51F6A00386431 /* TABViewAnimatedDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABViewAnimatedDefines.h; sourceTree = "<group>"; };
+		34A4E39D26A51F6A00386431 /* UIView+TABControlModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TABControlModel.h"; sourceTree = "<group>"; };
+		34A4E39E26A51F6A00386431 /* UIView+TABAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TABAnimated.m"; sourceTree = "<group>"; };
+		34A4E39F26A51F6A00386431 /* UITableView+TABControlAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+TABControlAnimation.h"; sourceTree = "<group>"; };
+		34A4E3A026A51F6A00386431 /* TABTableAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABTableAnimated.m; sourceTree = "<group>"; };
+		34A4E3A126A51F6A00386431 /* UIView+TABControlAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TABControlAnimation.h"; sourceTree = "<group>"; };
+		34A4E3A226A51F6A00386431 /* TABFormAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABFormAnimated.m; sourceTree = "<group>"; };
+		34A4E3A326A51F6A00386431 /* UICollectionView+TABControlAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+TABControlAnimation.h"; sourceTree = "<group>"; };
+		34A4E3A426A51F6A00386431 /* UIView+TABControlModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TABControlModel.m"; sourceTree = "<group>"; };
+		34A4E3A526A51F6A00386431 /* TABCollectionAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABCollectionAnimated.h; sourceTree = "<group>"; };
+		34A4E3A626A51F6A00386431 /* TABViewAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABViewAnimated.h; sourceTree = "<group>"; };
+		34A4E3A726A51F6A00386431 /* TABTableAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABTableAnimated.h; sourceTree = "<group>"; };
+		34A4E3A826A51F6A00386431 /* UITableView+TABControlAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+TABControlAnimation.m"; sourceTree = "<group>"; };
+		34A4E3A926A51F6A00386431 /* UIView+TABAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TABAnimated.h"; sourceTree = "<group>"; };
+		34A4E3DD26A51FD700386431 /* TABAnimated-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TABAnimated-Prefix.pch"; sourceTree = "<group>"; };
+		34A4E3E226A5212500386431 /* LNAppListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNAppListViewController.m; sourceTree = "<group>"; };
+		34A4E3E326A5212500386431 /* LNAppListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNAppListViewController.h; sourceTree = "<group>"; };
+		34A4E3E526A5212500386431 /* YKAppMenuGroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKAppMenuGroupModel.h; sourceTree = "<group>"; };
+		34A4E3E626A5212500386431 /* LNAppModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNAppModel.h; sourceTree = "<group>"; };
+		34A4E3E726A5212500386431 /* LNAppModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNAppModel.m; sourceTree = "<group>"; };
+		34A4E3E826A5212500386431 /* YKAppMenuGroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKAppMenuGroupModel.m; sourceTree = "<group>"; };
+		34A4E3EA26A5212500386431 /* LNAppCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNAppCollectionCell.m; sourceTree = "<group>"; };
+		34A4E3EC26A5212500386431 /* LNAppListReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNAppListReusableView.h; sourceTree = "<group>"; };
+		34A4E3ED26A5212500386431 /* YKCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKCollectionReusableView.h; sourceTree = "<group>"; };
+		34A4E3EE26A5212500386431 /* YKCollectionViewLayoutAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKCollectionViewLayoutAttributes.h; sourceTree = "<group>"; };
+		34A4E3EF26A5212500386431 /* LNAppListCollectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNAppListCollectView.h; sourceTree = "<group>"; };
+		34A4E3F026A5212500386431 /* YKCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKCollectionViewLayout.h; sourceTree = "<group>"; };
+		34A4E3F126A5212500386431 /* LNAppCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNAppCollectionCell.h; sourceTree = "<group>"; };
+		34A4E3F226A5212500386431 /* YKCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKCollectionReusableView.m; sourceTree = "<group>"; };
+		34A4E3F326A5212500386431 /* LNAppListReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNAppListReusableView.m; sourceTree = "<group>"; };
+		34A4E3F426A5212500386431 /* LNAppListCollectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNAppListCollectView.m; sourceTree = "<group>"; };
+		34A4E3F526A5212500386431 /* YKCollectionViewLayoutAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKCollectionViewLayoutAttributes.m; sourceTree = "<group>"; };
+		34A4E3F626A5212500386431 /* YKCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKCollectionViewLayout.m; sourceTree = "<group>"; };
+		34A4E41126A5212600386431 /* LNAppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNAppManager.m; sourceTree = "<group>"; };
+		34A4E41226A5212600386431 /* LNAppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNAppManager.h; sourceTree = "<group>"; };
+		34A4E43826A5269400386431 /* MiniAppData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = MiniAppData.plist; sourceTree = "<group>"; };
+		34A4E43A26A5534700386431 /* LNAppCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LNAppCollectionCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34A4E30526A515DB00386431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34A4E2FF26A515DB00386431 = {
+			isa = PBXGroup;
+			children = (
+				34A4E30A26A515DB00386431 /* TABAnimatedTest */,
+				34A4E30926A515DB00386431 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34A4E30926A515DB00386431 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34A4E30826A515DB00386431 /* TABAnimatedTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34A4E30A26A515DB00386431 /* TABAnimatedTest */ = {
+			isa = PBXGroup;
+			children = (
+				34A4E32426A51F6900386431 /* TABAnimated */,
+				34A4E3DE26A5212500386431 /* MiniApp */,
+				34A4E30B26A515DB00386431 /* AppDelegate.h */,
+				34A4E30C26A515DB00386431 /* AppDelegate.m */,
+				34A4E30E26A515DB00386431 /* SceneDelegate.h */,
+				34A4E30F26A515DB00386431 /* SceneDelegate.m */,
+				34A4E31126A515DB00386431 /* ViewController.h */,
+				34A4E31226A515DB00386431 /* ViewController.m */,
+				34A4E31426A515DB00386431 /* Main.storyboard */,
+				34A4E31726A515DE00386431 /* Assets.xcassets */,
+				34A4E31926A515DE00386431 /* LaunchScreen.storyboard */,
+				34A4E31C26A515DE00386431 /* Info.plist */,
+				34A4E31D26A515DE00386431 /* main.m */,
+				34A4E3DD26A51FD700386431 /* TABAnimated-Prefix.pch */,
+			);
+			path = TABAnimatedTest;
+			sourceTree = "<group>";
+		};
+		34A4E32426A51F6900386431 /* TABAnimated */ = {
+			isa = PBXGroup;
+			children = (
+				34A4E32526A51F6900386431 /* Cache */,
+				34A4E33726A51F6900386431 /* Config */,
+				34A4E39526A51F6A00386431 /* Control */,
+				34A4E35126A51F6900386431 /* Decorate */,
+				34A4E33A26A51F6900386431 /* Product */,
+				34A4E34926A51F6900386431 /* PullLoading */,
+				34A4E32C26A51F6900386431 /* Util */,
+				34A4E35026A51F6900386431 /* TABAnimated.h */,
+				34A4E33926A51F6900386431 /* TABAnimated.m */,
+			);
+			path = TABAnimated;
+			sourceTree = "<group>";
+		};
+		34A4E32526A51F6900386431 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				34A4E32826A51F6900386431 /* TABAnimatedCacheManager.h */,
+				34A4E32B26A51F6900386431 /* TABAnimatedCacheManager.m */,
+				34A4E32A26A51F6900386431 /* TABAnimatedCacheModel.h */,
+				34A4E32726A51F6900386431 /* TABAnimatedCacheModel.m */,
+				34A4E32626A51F6900386431 /* TABAnimatedDocumentMethod.h */,
+				34A4E32926A51F6900386431 /* TABAnimatedDocumentMethod.m */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		34A4E32C26A51F6900386431 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				34A4E33326A51F6900386431 /* NSArray+TABAnimated.h */,
+				34A4E32F26A51F6900386431 /* NSArray+TABAnimated.m */,
+				34A4E33426A51F6900386431 /* TABAnimatedInjectionIIIHelper.h */,
+				34A4E32E26A51F6900386431 /* TABAnimatedInjectionIIIHelper.m */,
+				34A4E33226A51F6900386431 /* TABAnimationMethod.h */,
+				34A4E32D26A51F6900386431 /* TABAnimationMethod.m */,
+				34A4E33126A51F6900386431 /* TABWeakDelegateManager.h */,
+				34A4E33526A51F6900386431 /* TABWeakDelegateManager.m */,
+				34A4E33626A51F6900386431 /* UIScrollView+TABExtension.h */,
+				34A4E33026A51F6900386431 /* UIScrollView+TABExtension.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		34A4E33726A51F6900386431 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				34A4E33826A51F6900386431 /* TABAnimatedConfig.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		34A4E33A26A51F6900386431 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				34A4E33F26A51F6900386431 /* Include */,
+				34A4E34326A51F6900386431 /* TABAnimatedProductHelper.h */,
+				34A4E34826A51F6900386431 /* TABAnimatedProductHelper.m */,
+				34A4E34726A51F6900386431 /* TABAnimatedProductImpl.h */,
+				34A4E33E26A51F6900386431 /* TABAnimatedProductImpl.m */,
+				34A4E33B26A51F6900386431 /* TABAnimatedProduction.h */,
+				34A4E34526A51F6900386431 /* TABAnimatedProduction.m */,
+				34A4E34626A51F6900386431 /* TABComponentLayer.h */,
+				34A4E33D26A51F6900386431 /* TABComponentLayer.m */,
+				34A4E33C26A51F6900386431 /* UIView+TABAnimatedProduction.h */,
+				34A4E34426A51F6900386431 /* UIView+TABAnimatedProduction.m */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		34A4E33F26A51F6900386431 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				34A4E34126A51F6900386431 /* TABAnimatedProductDefines.h */,
+				34A4E34026A51F6900386431 /* TABAnimatedProductInterface.h */,
+				34A4E34226A51F6900386431 /* TABComponentLayerSerializationInterface.h */,
+			);
+			path = Include;
+			sourceTree = "<group>";
+		};
+		34A4E34926A51F6900386431 /* PullLoading */ = {
+			isa = PBXGroup;
+			children = (
+				34A4E34B26A51F6900386431 /* TABAnimatedPullLoadingComponent.h */,
+				34A4E34D26A51F6900386431 /* TABAnimatedPullLoadingComponent.m */,
+				34A4E34E26A51F6900386431 /* UIScrollView+TABAnimated.h */,
+				34A4E34A26A51F6900386431 /* UIScrollView+TABAnimated.m */,
+				34A4E34C26A51F6900386431 /* UIView+TABExtension.h */,
+				34A4E34F26A51F6900386431 /* UIView+TABExtension.m */,
+			);
+			path = PullLoading;
+			sourceTree = "<group>";
+		};
+		34A4E35126A51F6900386431 /* Decorate */ = {
+			isa = PBXGroup;
+			children = (
+				34A4E35D26A51F6900386431 /* Animation */,
+				34A4E38726A51F6900386431 /* Chain */,
+				34A4E35226A51F6900386431 /* DarkMode */,
+			);
+			path = Decorate;
+			sourceTree = "<group>";
+		};
+		34A4E35226A51F6900386431 /* DarkMode */ = {
+			isa = PBXGroup;
+			children = (
+				34A4E35626A51F6900386431 /* Include */,
+				34A4E35326A51F6900386431 /* TABAnimatedDarkModeImpl.h */,
+				34A4E35B26A51F6900386431 /* TABAnimatedDarkModeImpl.m */,
+				34A4E35C26A51F6900386431 /* TABAnimatedDarkModeManagerImpl.h */,
+				34A4E35526A51F6900386431 /* TABAnimatedDarkModeManagerImpl.m */,
+				34A4E35426A51F6900386431 /* TABSentryView.h */,
+				34A4E35A26A51F6900386431 /* TABSentryView.m */,
+			);
+			path = DarkMode;
+			sourceTree = "<group>";
+		};
+		34A4E35626A51F6900386431 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				34A4E35726A51F6900386431 /* TABAnimatedDarkModeInterface.h */,
+				34A4E35826A51F6900386431 /* TABAnimatedDarkModeDefines.h */,
+				34A4E35926A51F6900386431 /* TABAnimatedDarkModeManagerInterface.h */,
+			);
+			path = Include;
+			sourceTree = "<group>";
+		};
+		34A4E35D26A51F6900386431 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				34A4E35E26A51F6900386431 /* Bin */,
+				34A4E36326A51F6900386431 /* Classic */,
+				34A4E37226A51F6900386431 /* Drop */,
+				34A4E36E26A51F6900386431 /* Include */,
+				34A4E38126A51F6900386431 /* Shimmer */,
+				34A4E37126A51F6900386431 /* TABAnimationManagerImpl.h */,
+				34A4E38026A51F6900386431 /* TABAnimationManagerImpl.m */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		34A4E35E26A51F6900386431 /* Bin */ = {
+			isa = PBXGroup;
+			children = (
+				34A4E36226A51F6900386431 /* TABBinAnimation.h */,
+				34A4E36026A51F6900386431 /* TABBinAnimation.m */,
+				34A4E36126A51F6900386431 /* TABBinAnimationImpl.h */,
+				34A4E35F26A51F6900386431 /* TABBinAnimationImpl.m */,
+			);
+			path = Bin;
+			sourceTree = "<group>";
+		};
+		34A4E36326A51F6900386431 /* Classic */ = {
+			isa = PBXGroup;
+			children = (
+				34A4E36D26A51F6900386431 /* TABBaseComponent+TABClassicAnimation.h */,
+				34A4E36826A51F6900386431 /* TABBaseComponent+TABClassicAnimation.m */,
+				34A4E36B26A51F6900386431 /* TABClassicAnimation.h */,
+				34A4E36726A51F6900386431 /* TABClassicAnimation.m */,
+				34A4E36426A51F6900386431 /* TABClassicAnimationImpl.h */,
+				34A4E36A26A51F6900386431 /* TABClassicAnimationImpl.m */,
+				34A4E36626A51F6900386431 /* TABComponentLayer+TABClassicAnimation.h */,
+				34A4E36C26A51F6900386431 /* TABComponentLayer+TABClassicAnimation.m */,
+				34A4E36926A51F6900386431 /* TABComponentLayerClassicSerializationImpl.h */,
+				34A4E36526A51F6900386431 /* TABComponentLayerClassicSerializationImpl.m */,
+			);
+			path = Classic;
+			sourceTree = "<group>";
+		};
+		34A4E36E26A51F6900386431 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				34A4E36F26A51F6900386431 /* TABAnimatedDecorateInterface.h */,
+				34A4E37026A51F6900386431 /* TABAnimationManagerInterface.h */,
+			);
+			path = Include;
+			sourceTree = "<group>";
+		};
+		34A4E37226A51F6900386431 /* Drop */ = {
+			isa = PBXGroup;
+			children = (
+				34A4E37B26A51F6900386431 /* NSArray+TABDropAnimation.h */,
+				34A4E37526A51F6900386431 /* NSArray+TABDropAnimation.m */,
+				34A4E37F26A51F6900386431 /* TABBaseComponent+TABDropAnimation.h */,
+				34A4E37726A51F6900386431 /* TABBaseComponent+TABDropAnimation.m */,
+				34A4E37A26A51F6900386431 /* TABComponentLayer+TABDropAnimation.h */,
+				34A4E37326A51F6900386431 /* TABComponentLayer+TABDropAnimation.m */,
+				34A4E37426A51F6900386431 /* TABComponentLayerDropSerializationImpl.h */,
+				34A4E37926A51F6900386431 /* TABComponentLayerDropSerializationImpl.m */,
+				34A4E37826A51F6900386431 /* TABDropAnimation.h */,
+				34A4E37E26A51F6900386431 /* TABDropAnimation.m */,
+				34A4E37C26A51F6900386431 /* TABDropAnimationDefines.h */,
+				34A4E37626A51F6900386431 /* TABDropAnimationImpl.h */,
+				34A4E37D26A51F6900386431 /* TABDropAnimationImpl.m */,
+			);
+			path = Drop;
+			sourceTree = "<group>";
+		};
+		34A4E38126A51F6900386431 /* Shimmer */ = {
+			isa = PBXGroup;
+			children = (
+				34A4E38526A51F6900386431 /* TABShimmerAnimation.h */,
+				34A4E38226A51F6900386431 /* TABShimmerAnimation.m */,
+				34A4E38426A51F6900386431 /* TABShimmerAnimationDefines.h */,
+				34A4E38326A51F6900386431 /* TABShimmerAnimationImpl.h */,
+				34A4E38626A51F6900386431 /* TABShimmerAnimationImpl.m */,
+			);
+			path = Shimmer;
+			sourceTree = "<group>";
+		};
+		34A4E38726A51F6900386431 /* Chain */ = {
+			isa = PBXGroup;
+			children = (
+				34A4E38C26A51F6900386431 /* Include */,
+				34A4E38F26A51F6900386431 /* NSArray+TABAnimatedChain.h */,
+				34A4E39426A51F6A00386431 /* NSArray+TABAnimatedChain.m */,
+				34A4E38B26A51F6900386431 /* TABAnimatedChainManagerImpl.h */,
+				34A4E39326A51F6A00386431 /* TABAnimatedChainManagerImpl.m */,
+				34A4E39026A51F6900386431 /* TABBaseComponent.h */,
+				34A4E38A26A51F6900386431 /* TABBaseComponent.m */,
+				34A4E38926A51F6900386431 /* TABComponentManager.h */,
+				34A4E39126A51F6A00386431 /* TABComponentManager.m */,
+				34A4E38826A51F6900386431 /* TABComponentMutableKey.h */,
+				34A4E39226A51F6A00386431 /* TABComponentMutableKey.m */,
+			);
+			path = Chain;
+			sourceTree = "<group>";
+		};
+		34A4E38C26A51F6900386431 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				34A4E38D26A51F6900386431 /* TABAnimatedChainDefines.h */,
+				34A4E38E26A51F6900386431 /* TABAnimatedChainManagerInterface.h */,
+			);
+			path = Include;
+			sourceTree = "<group>";
+		};
+		34A4E39526A51F6A00386431 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				34A4E39B26A51F6A00386431 /* Include */,
+				34A4E3A526A51F6A00386431 /* TABCollectionAnimated.h */,
+				34A4E39A26A51F6A00386431 /* TABCollectionAnimated.m */,
+				34A4E39626A51F6A00386431 /* TABFormAnimated.h */,
+				34A4E3A226A51F6A00386431 /* TABFormAnimated.m */,
+				34A4E3A726A51F6A00386431 /* TABTableAnimated.h */,
+				34A4E3A026A51F6A00386431 /* TABTableAnimated.m */,
+				34A4E3A626A51F6A00386431 /* TABViewAnimated.h */,
+				34A4E39926A51F6A00386431 /* TABViewAnimated.m */,
+				34A4E3A326A51F6A00386431 /* UICollectionView+TABControlAnimation.h */,
+				34A4E39826A51F6A00386431 /* UICollectionView+TABControlAnimation.m */,
+				34A4E39F26A51F6A00386431 /* UITableView+TABControlAnimation.h */,
+				34A4E3A826A51F6A00386431 /* UITableView+TABControlAnimation.m */,
+				34A4E3A926A51F6A00386431 /* UIView+TABAnimated.h */,
+				34A4E39E26A51F6A00386431 /* UIView+TABAnimated.m */,
+				34A4E3A126A51F6A00386431 /* UIView+TABControlAnimation.h */,
+				34A4E39726A51F6A00386431 /* UIView+TABControlAnimation.m */,
+				34A4E39D26A51F6A00386431 /* UIView+TABControlModel.h */,
+				34A4E3A426A51F6A00386431 /* UIView+TABControlModel.m */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		34A4E39B26A51F6A00386431 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				34A4E39C26A51F6A00386431 /* TABViewAnimatedDefines.h */,
+			);
+			path = Include;
+			sourceTree = "<group>";
+		};
+		34A4E3DE26A5212500386431 /* MiniApp */ = {
+			isa = PBXGroup;
+			children = (
+				34A4E43826A5269400386431 /* MiniAppData.plist */,
+				34A4E40B26A5212500386431 /* General */,
+				34A4E3DF26A5212500386431 /* Sections */,
+				34A4E3F726A5212500386431 /* Tools */,
+			);
+			path = MiniApp;
+			sourceTree = "<group>";
+		};
+		34A4E3DF26A5212500386431 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				34A4E3E026A5212500386431 /* LNAppList(程序列表) */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		34A4E3E026A5212500386431 /* LNAppList(程序列表) */ = {
+			isa = PBXGroup;
+			children = (
+				34A4E3E126A5212500386431 /* Controller */,
+				34A4E3E426A5212500386431 /* Model */,
+				34A4E3E926A5212500386431 /* View */,
+			);
+			path = "LNAppList(程序列表)";
+			sourceTree = "<group>";
+		};
+		34A4E3E126A5212500386431 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				34A4E3E326A5212500386431 /* LNAppListViewController.h */,
+				34A4E3E226A5212500386431 /* LNAppListViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		34A4E3E426A5212500386431 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				34A4E3E526A5212500386431 /* YKAppMenuGroupModel.h */,
+				34A4E3E826A5212500386431 /* YKAppMenuGroupModel.m */,
+				34A4E3E626A5212500386431 /* LNAppModel.h */,
+				34A4E3E726A5212500386431 /* LNAppModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		34A4E3E926A5212500386431 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				34A4E3EF26A5212500386431 /* LNAppListCollectView.h */,
+				34A4E3F426A5212500386431 /* LNAppListCollectView.m */,
+				34A4E3F126A5212500386431 /* LNAppCollectionCell.h */,
+				34A4E3EA26A5212500386431 /* LNAppCollectionCell.m */,
+				34A4E43A26A5534700386431 /* LNAppCollectionCell.xib */,
+				34A4E3EC26A5212500386431 /* LNAppListReusableView.h */,
+				34A4E3F326A5212500386431 /* LNAppListReusableView.m */,
+				34A4E3ED26A5212500386431 /* YKCollectionReusableView.h */,
+				34A4E3F226A5212500386431 /* YKCollectionReusableView.m */,
+				34A4E3F026A5212500386431 /* YKCollectionViewLayout.h */,
+				34A4E3F626A5212500386431 /* YKCollectionViewLayout.m */,
+				34A4E3EE26A5212500386431 /* YKCollectionViewLayoutAttributes.h */,
+				34A4E3F526A5212500386431 /* YKCollectionViewLayoutAttributes.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		34A4E3F726A5212500386431 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		34A4E40B26A5212500386431 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				34A4E41C26A5212600386431 /* Base */,
+				34A4E41D26A5212600386431 /* Categorys */,
+				34A4E41326A5212600386431 /* Controllers */,
+				34A4E40C26A5212500386431 /* File */,
+				34A4E41026A5212500386431 /* Manager */,
+				34A4E40D26A5212500386431 /* Models */,
+				34A4E41426A5212600386431 /* Views */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		34A4E40C26A5212500386431 /* File */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		34A4E40D26A5212500386431 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		34A4E41026A5212500386431 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				34A4E41226A5212600386431 /* LNAppManager.h */,
+				34A4E41126A5212600386431 /* LNAppManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		34A4E41326A5212600386431 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		34A4E41426A5212600386431 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		34A4E41C26A5212600386431 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		34A4E41D26A5212600386431 /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+				34A4E41E26A5212600386431 /* UIkit */,
+				34A4E41F26A5212600386431 /* Foundation */,
+			);
+			path = Categorys;
+			sourceTree = "<group>";
+		};
+		34A4E41E26A5212600386431 /* UIkit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIkit;
+			sourceTree = "<group>";
+		};
+		34A4E41F26A5212600386431 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34A4E30726A515DB00386431 /* TABAnimatedTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34A4E32126A515DE00386431 /* Build configuration list for PBXNativeTarget "TABAnimatedTest" */;
+			buildPhases = (
+				34A4E30426A515DB00386431 /* Sources */,
+				34A4E30526A515DB00386431 /* Frameworks */,
+				34A4E30626A515DB00386431 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TABAnimatedTest;
+			productName = TABAnimatedTest;
+			productReference = 34A4E30826A515DB00386431 /* TABAnimatedTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34A4E30026A515DB00386431 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					34A4E30726A515DB00386431 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 34A4E30326A515DB00386431 /* Build configuration list for PBXProject "TABAnimatedTest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34A4E2FF26A515DB00386431;
+			productRefGroup = 34A4E30926A515DB00386431 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34A4E30726A515DB00386431 /* TABAnimatedTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34A4E30626A515DB00386431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A4E43B26A5534800386431 /* LNAppCollectionCell.xib in Resources */,
+				34A4E31B26A515DE00386431 /* LaunchScreen.storyboard in Resources */,
+				34A4E31826A515DE00386431 /* Assets.xcassets in Resources */,
+				34A4E43926A5269400386431 /* MiniAppData.plist in Resources */,
+				34A4E31626A515DB00386431 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34A4E30426A515DB00386431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A4E3B926A51F6A00386431 /* TABAnimatedPullLoadingComponent.m in Sources */,
+				34A4E3B226A51F6A00386431 /* TABAnimated.m in Sources */,
+				34A4E3CD26A51F6A00386431 /* TABShimmerAnimationImpl.m in Sources */,
+				34A4E42126A5212600386431 /* LNAppModel.m in Sources */,
+				34A4E31326A515DB00386431 /* ViewController.m in Sources */,
+				34A4E3C926A51F6A00386431 /* TABDropAnimationImpl.m in Sources */,
+				34A4E3B726A51F6A00386431 /* TABAnimatedProductHelper.m in Sources */,
+				34A4E3AE26A51F6A00386431 /* TABAnimatedInjectionIIIHelper.m in Sources */,
+				34A4E30D26A515DB00386431 /* AppDelegate.m in Sources */,
+				34A4E3DB26A51F6A00386431 /* UITableView+TABControlAnimation.m in Sources */,
+				34A4E3B626A51F6A00386431 /* TABAnimatedProduction.m in Sources */,
+				34A4E3AC26A51F6A00386431 /* TABAnimatedCacheManager.m in Sources */,
+				34A4E3D826A51F6A00386431 /* TABTableAnimated.m in Sources */,
+				34A4E42926A5212600386431 /* YKCollectionViewLayout.m in Sources */,
+				34A4E3BF26A51F6A00386431 /* TABBinAnimation.m in Sources */,
+				34A4E3C126A51F6A00386431 /* TABClassicAnimation.m in Sources */,
+				34A4E3CC26A51F6A00386431 /* TABShimmerAnimation.m in Sources */,
+				34A4E3BB26A51F6A00386431 /* TABAnimatedDarkModeManagerImpl.m in Sources */,
+				34A4E42026A5212600386431 /* LNAppListViewController.m in Sources */,
+				34A4E3D226A51F6A00386431 /* NSArray+TABAnimatedChain.m in Sources */,
+				34A4E42726A5212600386431 /* LNAppListCollectView.m in Sources */,
+				34A4E3D326A51F6A00386431 /* UIView+TABControlAnimation.m in Sources */,
+				34A4E3BE26A51F6A00386431 /* TABBinAnimationImpl.m in Sources */,
+				34A4E3B326A51F6A00386431 /* TABComponentLayer.m in Sources */,
+				34A4E3C526A51F6A00386431 /* TABComponentLayer+TABDropAnimation.m in Sources */,
+				34A4E42326A5212600386431 /* LNAppCollectionCell.m in Sources */,
+				34A4E3B126A51F6A00386431 /* TABWeakDelegateManager.m in Sources */,
+				34A4E3B826A51F6A00386431 /* UIScrollView+TABAnimated.m in Sources */,
+				34A4E3CF26A51F6A00386431 /* TABComponentManager.m in Sources */,
+				34A4E42226A5212600386431 /* YKAppMenuGroupModel.m in Sources */,
+				34A4E3AA26A51F6A00386431 /* TABAnimatedCacheModel.m in Sources */,
+				34A4E3B026A51F6A00386431 /* UIScrollView+TABExtension.m in Sources */,
+				34A4E3C226A51F6A00386431 /* TABBaseComponent+TABClassicAnimation.m in Sources */,
+				34A4E3C826A51F6A00386431 /* TABComponentLayerDropSerializationImpl.m in Sources */,
+				34A4E3D026A51F6A00386431 /* TABComponentMutableKey.m in Sources */,
+				34A4E3D426A51F6A00386431 /* UICollectionView+TABControlAnimation.m in Sources */,
+				34A4E3C426A51F6A00386431 /* TABComponentLayer+TABClassicAnimation.m in Sources */,
+				34A4E3D126A51F6A00386431 /* TABAnimatedChainManagerImpl.m in Sources */,
+				34A4E43326A5212600386431 /* LNAppManager.m in Sources */,
+				34A4E3BA26A51F6A00386431 /* UIView+TABExtension.m in Sources */,
+				34A4E3AF26A51F6A00386431 /* NSArray+TABAnimated.m in Sources */,
+				34A4E3DA26A51F6A00386431 /* UIView+TABControlModel.m in Sources */,
+				34A4E3BC26A51F6A00386431 /* TABSentryView.m in Sources */,
+				34A4E3D526A51F6A00386431 /* TABViewAnimated.m in Sources */,
+				34A4E31E26A515DE00386431 /* main.m in Sources */,
+				34A4E3CE26A51F6A00386431 /* TABBaseComponent.m in Sources */,
+				34A4E3CB26A51F6A00386431 /* TABAnimationManagerImpl.m in Sources */,
+				34A4E42826A5212600386431 /* YKCollectionViewLayoutAttributes.m in Sources */,
+				34A4E3C726A51F6A00386431 /* TABBaseComponent+TABDropAnimation.m in Sources */,
+				34A4E3AB26A51F6A00386431 /* TABAnimatedDocumentMethod.m in Sources */,
+				34A4E42526A5212600386431 /* YKCollectionReusableView.m in Sources */,
+				34A4E3D726A51F6A00386431 /* UIView+TABAnimated.m in Sources */,
+				34A4E31026A515DB00386431 /* SceneDelegate.m in Sources */,
+				34A4E3AD26A51F6A00386431 /* TABAnimationMethod.m in Sources */,
+				34A4E3C626A51F6A00386431 /* NSArray+TABDropAnimation.m in Sources */,
+				34A4E3B526A51F6A00386431 /* UIView+TABAnimatedProduction.m in Sources */,
+				34A4E3C026A51F6A00386431 /* TABComponentLayerClassicSerializationImpl.m in Sources */,
+				34A4E3D626A51F6A00386431 /* TABCollectionAnimated.m in Sources */,
+				34A4E3C326A51F6A00386431 /* TABClassicAnimationImpl.m in Sources */,
+				34A4E3CA26A51F6A00386431 /* TABDropAnimation.m in Sources */,
+				34A4E3B426A51F6A00386431 /* TABAnimatedProductImpl.m in Sources */,
+				34A4E3D926A51F6A00386431 /* TABFormAnimated.m in Sources */,
+				34A4E3BD26A51F6A00386431 /* TABAnimatedDarkModeImpl.m in Sources */,
+				34A4E42626A5212600386431 /* LNAppListReusableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		34A4E31426A515DB00386431 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34A4E31526A515DB00386431 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34A4E31926A515DE00386431 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34A4E31A26A515DE00386431 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34A4E31F26A515DE00386431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34A4E32026A515DE00386431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34A4E32226A515DE00386431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8624L4PHA;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TABAnimatedTest/TABAnimated-Prefix.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TABAnimatedTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yyks.TABAnimatedTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34A4E32326A515DE00386431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8624L4PHA;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TABAnimatedTest/TABAnimated-Prefix.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TABAnimatedTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yyks.TABAnimatedTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34A4E30326A515DB00386431 /* Build configuration list for PBXProject "TABAnimatedTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A4E31F26A515DE00386431 /* Debug */,
+				34A4E32026A515DE00386431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34A4E32126A515DE00386431 /* Build configuration list for PBXNativeTarget "TABAnimatedTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A4E32226A515DE00386431 /* Debug */,
+				34A4E32326A515DE00386431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34A4E30026A515DB00386431 /* Project object */;
+}
